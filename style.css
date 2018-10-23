@@ -1,0 +1,46 @@
+/*reset*/
+body {
+	margin: 0;
+}
+
+a{
+	outline: none;
+}
+
+/*header*/
+.background-wrapper {
+	height: 900px;
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header-top {
+	height: 85px;
+}
+
+#logo {
+	margin-top: 43px;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	margin-top: 34px;
+	color: #66b045;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.contacts a {
+	color: #66b045;
+}
+
+.contacts div {
+	display: flex;
+}
+
+.contacts i {
+	margin: 3px 10px 0;
+	color: #542749;
+}
