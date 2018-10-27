@@ -2,12 +2,17 @@
 
 body {
 	margin: 0;
+	font-family: Proxima Nova;
 }
 
 a{
 	outline: none;
 }
 
+@font-face {
+	font-family: Proxima Nova;
+	src:url(fonts/proxima.ttf);
+}
 /*header*/
 
 /*header-top*/
