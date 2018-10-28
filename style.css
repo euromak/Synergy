@@ -171,3 +171,23 @@ a{
 	color: white;
 	font-weight: bold;
 }
+
+/*social icon*/
+.social-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 36px;
+}
+
+.text-social {
+	color: #426176;
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	font-weight: bold;
+	margin: 8px 0;
+}
+
+.social-logo a{
+	margin-left: 4px;
+}
