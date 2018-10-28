@@ -283,7 +283,6 @@ a{
 }
 
 .profit > .row {
-	height: 277px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -296,7 +295,21 @@ a{
 	color: #542749;
 	line-height: 60px;
 	font-size: 48px;
-	font-weight: bolder;
+	font-weight: 800;
+	border-bottom: 1px solid #d2cad5;
+	border-left: 1px solid #d2cad5;
+}
+
+.top div :after {
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 1px solid #d2cad5;
+	border-left: 1px solid #d2cad5;
+}
+
+.top h1 {
+	margin-left: 20px;
+	font-weight: 800;
 }
 
 .middle div {
@@ -305,17 +318,38 @@ a{
 	align-items: center;
 }
 
-/* Style for "Что вы узн" */
-width: 356px;
-height: 88px;
-color: #542749;
-color: #fffffe;
-font-family: "Proxima Nova - Semibold";
-font-size: 48px;
-font-weight: bold;
-/* Text style for "Что вы узн" */
-color: #542749;
-line-height: 60px;
-/* Text style for "на лекции?" */
-color: #542749;
-line-height: 48px;
+
+.middle div {
+	height: 266px;
+}
+
+.middle2 div {
+	height: 266px;
+}
+
+.bottom div {
+	height: 142px;
+}
+
+
+
+/*footer*/
+.footer {
+	height: 81px;
+	background-color: #542749;
+	color: white;
+	padding-top: 30px;
+}
+
+.footer a{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 15px;
+	text-decoration: underline;
+	letter-spacing: 0.46px;
+}
+
+.copyrights {
+	text-align: right;
+}
