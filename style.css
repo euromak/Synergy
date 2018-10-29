@@ -291,6 +291,7 @@ a{
 .top div {
 	display: flex;
 	justify-content: flex-start;
+	height: 284px;
 	align-items: center;
 	color: #542749;
 	line-height: 60px;
@@ -314,22 +315,71 @@ a{
 
 .middle div {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-}
-
-
-.middle div {
 	height: 266px;
+	border-bottom: 1px solid #d2cad5;
+	border-left: 1px solid #d2cad5;
 }
+
 
 .middle2 div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	height: 266px;
+	border-bottom: 1px solid #d2cad5;
+	border-left: 1px solid #d2cad5;
+}
+
+.number {
+	color: #66b045;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.text {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #542749;
 }
 
 .bottom div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 142px;
 }
+
+.background-item {
+	background-color: rgb(235,238,240,.2);
+
+}
+
+.button-2 {
+	width: 305px;
+	height: 64px;
+	background-color: #542749;
+	color: white;
+	border: none;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+}
+.after-button-text {
+	display: flex;
+	justify-content: flex-start !important;
+	color: #66b045;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.46px;
+}
+
+
 
 
 
