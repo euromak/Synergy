@@ -405,3 +405,25 @@ a{
 .fix-height {
 	min-height: 96px;
 }
+
+/*lection*/
+.lection {	
+}
+
+.lection-left {
+	height: 692px;
+	background-image: url(images/yoga.jpg);
+}
+
+.lection-right {
+	height: 692px;
+	background-image: url(images/yoga.jpg);
+	transform: scaleX(-1);
+	background-color: rgba(152,171,186, 0.9);
+}
+
+.bg {
+	height: 692px;
+	background-color: rgba(152,171,186, 0.9);
+}
+
