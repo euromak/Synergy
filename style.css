@@ -15,7 +15,7 @@ a{
 }
 
 .container {
-	width: 1200px;
+	max-width: 1200px;
 }
 /*header*/
 
@@ -380,9 +380,6 @@ a{
 }
 
 
-
-
-
 /*footer*/
 .footer {
 	height: 81px;
@@ -398,8 +395,13 @@ a{
 	line-height: 15px;
 	text-decoration: underline;
 	letter-spacing: 0.46px;
+	text-align: right;
 }
 
 .copyrights {
 	text-align: right;
+}
+
+.fix-height {
+	min-height: 96px;
 }
