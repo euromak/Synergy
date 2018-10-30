@@ -22,7 +22,7 @@ a{
 /*header-top*/
 
 .background-wrapper {
-	height: 900px;
+	height: 890px;
 	background-image: url('images/background.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -181,6 +181,10 @@ a{
 	width: 46px;
 	height: 56px;
 }
+
+.triangle img {
+	padding-left: 5px;
+}
 /*right-block*/
 
 .form {
@@ -297,15 +301,15 @@ a{
 	line-height: 60px;
 	font-size: 48px;
 	font-weight: 800;
-	border-bottom: 1px solid #d2cad5;
-	border-left: 1px solid #d2cad5;
+	border-bottom: 2px solid #d2cad5;
+	border-left: 2px solid #d2cad5;
 }
 
 .top div :after {
 	display: flex;
 	justify-content: flex-start;
-	border-bottom: 1px solid #d2cad5;
-	border-left: 1px solid #d2cad5;
+	border-bottom: 2px solid #d2cad5;
+	border-left: 2px solid #d2cad5;
 }
 
 .top h1 {
@@ -318,8 +322,12 @@ a{
 	flex-direction: column;
 	justify-content: center;
 	height: 266px;
-	border-bottom: 1px solid #d2cad5;
-	border-left: 1px solid #d2cad5;
+	border-bottom: 2px solid #d2cad5;
+	border-left: 2px solid #d2cad5;
+}
+
+.middle div:last-child {
+	border-right: 2px solid #d2cad5;
 }
 
 
@@ -328,9 +336,14 @@ a{
 	flex-direction: column;
 	justify-content: center;
 	height: 266px;
-	border-bottom: 1px solid #d2cad5;
-	border-left: 1px solid #d2cad5;
+	border-bottom: 2px solid #d2cad5;
+	border-left: 2px solid #d2cad5;
 }
+
+.middle2 div:last-child {
+	border-right: 2px solid #d2cad5;
+}
+
 
 .number {
 	color: #66b045;
@@ -379,6 +392,51 @@ a{
 	letter-spacing: 0.46px;
 }
 
+/*lection*/
+.lection {
+	height: 685px;
+	background-image: url(images/yoga.jpg);
+	background-position: center center;	
+}
+
+.lection-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.lection-right div {
+	display: flex;
+	height: 125px;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+
+.lection-right p {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28px;
+	padding-left: 30px;
+}
+
+.lection-right h1 {
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 50px;
+	padding-left: 30px;
+}
+
+.lection-right img {
+	margin: 0 auto;
+}
+.imgWrapper {
+	width: 126px;
+	height: 125px;
+	background-image: url(images/whiteround.png);
+}
 
 /*footer*/
 .footer {
@@ -395,10 +453,14 @@ a{
 	line-height: 15px;
 	text-decoration: underline;
 	letter-spacing: 0.46px;
-	text-align: right;
 }
 
+
 .copyrights {
+	text-align: left;
+}
+
+.politic {
 	text-align: right;
 }
 
@@ -406,24 +468,5 @@ a{
 	min-height: 96px;
 }
 
-/*lection*/
-.lection {	
-}
 
-.lection-left {
-	height: 692px;
-	background-image: url(images/yoga.jpg);
-}
-
-.lection-right {
-	height: 692px;
-	background-image: url(images/yoga.jpg);
-	transform: scaleX(-1);
-	background-color: rgba(152,171,186, 0.9);
-}
-
-.bg {
-	height: 692px;
-	background-color: rgba(152,171,186, 0.9);
-}
 
