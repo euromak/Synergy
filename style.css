@@ -238,8 +238,26 @@ a{
 	border-radius: 30px 30px 30px 30px;
 }
 .form-check {
-    width: 300px;
+	display: flex;
+	justify-content: center;
+	width: 300px;
     margin: 10px auto;
+ 	color: #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.09px;
+}
+
+.form-check p {
+	margin-left: 12px;
+}
+
+.form-check input {
+	width: 24px;
+	height: 24px;
+	color: #66b045;
 }
 
 #button {
@@ -249,6 +267,9 @@ a{
 	background-color: #542749;
 	color: white;
 	border: none;
+	font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
 
 }
 
@@ -468,5 +489,26 @@ a{
 	min-height: 96px;
 }
 
+/*responsive styles*/
+@media screen and (max-width: 767px) {
+	
+	.right-block {
+		display: none;
+	}
 
+	.left-block div {
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.play-video {
+		margin: 0 auto;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+
+}
 
