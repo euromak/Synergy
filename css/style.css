@@ -303,10 +303,6 @@ a{
 
 /*profit section*/
 
-.profit {
-	height: 966px;
-}
-
 .profit > .row {
 	display: flex;
 	flex-direction: row;
@@ -510,5 +506,9 @@ a{
 		justify-content: center;
 	}
 
+	.profit > .row {
+		flex-direction: column;
+		height: auto;
+	}
 }
 
