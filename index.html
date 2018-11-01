@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 	</head>
 <body>
 	<header>
@@ -112,7 +113,7 @@
 			</div>
 			<div class="row bottom">
 				<div class="col-lg-4">
-					<button type="button" class="button-2 ">ПРИНЯТЬ УЧАСТИЕ</button>	
+					<button type="button" id="openModal" class="button-2">ПРИНЯТЬ УЧАСТИЕ</button>	
 				</div>
 				<div class="col-lg-4 after-button-text">Количество мест<br>ограничено: 200</div>
 				<div class="col-lg-4"></div>
@@ -155,5 +156,25 @@
 			</div>
 		</div>	
 	</footer>
+	<div class="modal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">Заголовок окна</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p>Подпишись на новости и получишь подарок</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button id="closeModal" type="button" class="btn btn-secondary" data-dismiss="modal">Нет, спасибо!</button>
+	        <button type="button" class="btn btn-primary">Да, я хочу скидку!</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="overlay"></div>
 </body>
 </html>
