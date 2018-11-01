@@ -401,7 +401,7 @@ a{
 }
 .after-button-text {
 	display: flex;
-	justify-content: flex-start !important;
+	justify-content: flex-start;
 	color: #66b045;
 	font-size: 18px;
 	font-weight: bold;
@@ -486,7 +486,7 @@ a{
 }
 
 /*responsive styles*/
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
 	
 	.right-block {
 		display: none;
@@ -510,5 +510,78 @@ a{
 		flex-direction: column;
 		height: auto;
 	}
+
+	.name-of-company {
+		line-height: 90px;
+	}
+
+	.name-of-company0 {
+		font-size: 60%;
+	}
+
+	.name-of-company2 {
+		font-size: 30%;
+	}
+
+	.name-of-company3 {
+		font-size: 30%;
+	}
+
+	.contacts {
+		align-items: center;
+		padding-left: 0;
+	}
+
+	.profit {
+		text-align: center;
+	}
+	.profit h1 {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.after-button-text {
+		text-align: center;
+		justify-content: center;
+	}
+
+	.lection-right p {
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.lection-right h1 {
+		text-align: center;
+	}
+
+	.adress-bottom {
+		margin-left: 0;
+	}
+
+	.footer div {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.name-of-company0 {
+		font-size: 80%;
+	}
+
+	.name-of-company2 {
+		font-size: 30%;
+	}
+
+	.name-of-company3 {
+		font-size: 30%;
+	}
+
+	.lection-right p {
+		font-size: 14px;
+		font-weight: bold;
+	}
+
 }
 
