@@ -300,6 +300,38 @@ a{
 .social-logo a{
 	margin-left: 4px;
 }
+/*speakers section*/
+.speakers-text {
+	color: #542749;
+	padding: 50px;
+	font-size: 18px;
+}
+
+.speakers-text ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+.speakers-text li {
+	margin-top: 10px;
+}
+.section-speakers-bg {
+	background: url(../images/bg.jpg) top center no-repeat;
+	width: 100%;
+	height: 750px;
+}
+.section-speakers-bg-text {
+	font-size: 20px;
+	color: #542749;
+	font-weight: bold;
+	line-height: 40px;
+	margin: 30px; 
+}
+.section-speakers-bg-text div {
+	margin-top: 50px;
+}
+.foto {
+	text-align: center;
+}
 
 /*profit section*/
 
