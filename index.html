@@ -204,17 +204,29 @@
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title">Заголовок окна</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
+	        <h5 class="modal-title">ЗАПОЛНИ ЗАЯВКУ</h5>
+
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        <p>Подпишись на новости и получишь подарок</p>
+	        <form action="">
+	        	 <div class="form-group modal-form">
+				    <label for="exampleInputEmail1">Ваше имя</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ФИО">
+  				</div>
+  				  <div class="form-group modal-form">
+    				<label for="exampleInputEmail1">Email</label>
+    				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите свой email">
+    			  </div>
+    			  <div class="form-group modal-form">
+ 					<label for="example-tel-input">Телефон</label>
+ 					<input class="form-control" type="tel" value="8-(xxx)-xxx-xxxx" id="example-tel-input">
+				  </div>
+	        </form>
 	      </div>
 	      <div class="modal-footer">
-	        <button id="closeModal" type="button" class="btn btn-secondary" data-dismiss="modal">Нет, спасибо!</button>
-	        <button type="button" class="btn btn-primary">Да, я хочу скидку!</button>
+	        <button id="closeModal" type="button" class="btn btn-secondary" data-dismiss="modal"><b>Нет, спасибо!</b></button>
+	        <button type="button" class="btn btn-custom">Да, я хочу участвовать!</button>
 	      </div>
 	    </div>
 	  </div>
