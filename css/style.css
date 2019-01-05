@@ -500,7 +500,125 @@ a{
 	height: 125px;
 	background-image: url(../images/whiteround.png);
 }
+/*section part*/
+.section-part {
+	text-align: center;
+}
+.section-part h1 {
+	font-weight: bold;
+	color: #542749;
+	margin-top: 50px;
+}
+.section-part p {
+	color: #542749;
+	font-size: 1.1em; 
+}
+.section-part > .row:first-child p{
+	color: #66b045;
+}
+.section-part-col {
+	height: 300px;
+	text-align: left;
+	padding: 50px;
+}
+.section-part > .row:nth-child(2) {
+	position: relative;
+}
+.section-part-col-text p:nth-child(1) {
+	position: relative;
+}
+#number{
+	position: absolute;
+	left: 17px;
+}
+.section-part-col-text p:nth-child(2) {
+	font-size: 1.5em;
+}
+.section-part-col-text p:nth-child(3) {
+	font-size: 1.2em;
+}
+.section-part-col-left {
+	background: #eaecf1;
+}
+.section-part-col-right {
+	background: #cef8bc;
+}
+.social-logo-part {
+	margin-top: 20px;
+}
+.social-logo-part a{
+	margin-right: 5px;
+}
+.section-part hr {
+	width: 460px;
+	height: 1px;
+	background-color: #66b045;
+	position: absolute;
+	top: 60px;
+	left: 150px;
+}
+@media (max-width: 1200px) {
+	.section-part hr {
+		width: 350px;
+	}
+}
+@media (max-width: 991px) {
+	.section-part hr {
+		width: 260px;
+	}
+}
+.map {
+	position: relative;	
+}
+.map p {
+	position: absolute;
+	color: 	#542749;
+	font-size: 	1.6em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px border-left: ;
+	top: 100px;
+	left: 45px;
+}
+.section-part-intensive div{
+	height: 520px;
+	margin-top: 100px;
+}
+.section-part-intensive-left {
+	background: #dfdbe6;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.section-part-intensive-left img {
+	position: absolute;
+	top: 105px;
+}
 
+.section-part-intensive-right {
+	background: #f3ebf5;
+}
+.synergy-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: #542749;
+	margin: 50px 0 70px;
+}
+.synergy-text div{
+	display: flex;
+	justify-content: center;
+}
+.synergy-text h1 {
+	font-weight: bold;
+}
+.synergy-text-info p {
+	width: 70%;
+	font-size: 1.3em;
+	margin-top: 20px;
+}
+.synergy-text-info span {
+	font-weight: bold;
+}
 /*footer*/
 .footer {
 	height: 81px;
@@ -508,6 +626,7 @@ a{
 	color: white;
 	padding-top: 30px;
 }
+
 
 .footer a{
 	color: white;
