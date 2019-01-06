@@ -657,6 +657,11 @@ a{
 .row-intensive-middle-col div:nth-child(2) {
 	margin-left: 10px;
 }
+@media (max-width: 1180px){
+	.row-intensive-middle-col {
+		font-size: 70%;
+	}
+}
 .row-intensive-bottom {
 	display: flex;
 	align-items: center;
