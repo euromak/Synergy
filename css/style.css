@@ -579,7 +579,7 @@ a{
 	top: 100px;
 	left: 45px;
 }
-.section-part-intensive div{
+.section-part-intensive-col{
 	height: 520px;
 	margin-top: 100px;
 }
@@ -593,9 +593,9 @@ a{
 	position: absolute;
 	top: 105px;
 }
-
 .section-part-intensive-right {
 	background: #f3ebf5;
+	color: #542749;
 }
 .synergy-text {
 	display: flex;
@@ -618,6 +618,67 @@ a{
 }
 .synergy-text-info span {
 	font-weight: bold;
+}
+.row-intensive {
+	margin: 30px 0 0 15px;
+}
+.row-intensive h1 {
+	color: #542749;
+	font-size: bold;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.row-intensive p {
+	color: #542749;
+	font-weight: bold;
+}
+.row-intensive-top p:nth-child(2) {
+	font-size: 1.4em;
+}
+.row-intensive-top p:last-child {
+	font-size: 0.9em;
+	margin: 20px 0;
+}
+.row-intensive-middle {
+	display: flex;
+	font-size: 1.8em;
+	border-top: 1px solid #66b045;
+}
+.row-intensive-middle-col {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	color: #66b045;
+}
+.row-intensive-middle-col div:first-child {
+	font-size: 5em;
+	font-weight: bold;
+}
+.row-intensive-middle-col div:nth-child(2) {
+	margin-left: 10px;
+}
+.row-intensive-bottom {
+	display: flex;
+	align-items: center;
+}
+.row-intensive-bottom p {
+	font-size: 0.7em;
+	margin-left: 30px;
+	display: flex;
+	justify-content: center;
+}
+#btn-info {
+	width: 30%;
+	height: 50px;
+	background: transparent;
+	border: 2px solid #542749;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#btn-info:hover {
+	background: #542749;
+	color: white;
+	text-shadow: 1px 1px 3px black;
 }
 /*footer*/
 .footer {
