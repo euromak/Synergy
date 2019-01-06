@@ -2,19 +2,22 @@
 //открытие окна по кнопке
 $(document).ready(function() {
 
-function toggleVisibility(){
-$('.modal, .overlay').toggleClass('show');
-}
+	function toggleVisibility(){
+	$('.modal, .overlay').toggleClass('show');
+	}
 
-$('#openModal').click(function() {
+	$('#openModal').click(function() {
 	toggleVisibility();
-
-});
-
-$('.close, #closeModal').click(function() {
-	toggleVisibility();
-});
 
 	});
 
+	$('.close, #closeModal').click(function() {
+	toggleVisibility();
+	});
 
+	$('#toggle-btn').click(function() {
+		$(this).toggleClass('toggleRight');
+		$('.toggle-text').html('УЧАСТИЕ ONLINE');
+	});
+
+});

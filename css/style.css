@@ -245,11 +245,52 @@ a{
 	color: white;
 }
 .toggle-box {
+	display: flex;
+	align-items: center;
 	width: 300px;
 	height: 50px;
 	border: 1px solid #ffffff;
 	margin: 10px auto;
 	border-radius: 30px 30px 30px 30px;
+	position: relative;
+}
+#toggle-btn {
+	width: 48%;
+	height: 98%;
+	background: white;
+	border: 1px solid white;
+	border-radius: 25px 25px 25px 25px;
+	position: 	absolute;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	cursor: pointer;
+	transition: all 10s;
+}
+.toggleRight {
+	left: 52%;
+}
+.toggle-text {
+	display: flex;
+	flex: 1;
+	color: #839fb1;
+	line-height: 14px;
+	font-weight: bold;
+}
+.toggle-btn-icon {
+	background: url(../images/students.svg) 100% 100% no-repeat;
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+}
+.toggle-box-side {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	color: black;
+	font-weight: bold;
+	line-height: 14px;
 }
 .form-check {
 	display: flex;
